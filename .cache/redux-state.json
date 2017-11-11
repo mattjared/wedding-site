@@ -1,13 +1,25 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/mattjared/Projects/wedding-site/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {
+        "_PARENT": "SOURCE"
+      },
+      "updatedAt": 1510284860818,
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/mattjared/Projects/wedding-site/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "2195c1c91353044b551b1d3002c6961d",
         "owner": "internal-data-bridge"
       }
     },
@@ -357,61 +369,17 @@
         "title": "Matt and Ash Dot Party",
         "_PARENT": "SOURCE"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-11-06T14:04:07.898Z",
+      "buildTime": "2017-11-10T03:34:17.566Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ccdb715a6bceb0f57ae0b3dc8c21fb6d",
+        "contentDigest": "00f3e6b93a71afe1598aebfd634ae4ea",
         "type": "Site",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/mattjared/Projects/wedding-site/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {
-        "_PARENT": "SOURCE"
-      },
-      "updatedAt": 1509977050471,
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/mattjared/Projects/wedding-site/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "94f295ce51a910cf2e56e5117fbd253b",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /page-2/": {
-      "layout": "index",
-      "jsonName": "page-2.json",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "/Users/mattjared/Projects/wedding-site/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
-      "context": {
-        "_PARENT": "SOURCE"
-      },
-      "updatedAt": 1509977050472,
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/mattjared/Projects/wedding-site/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "bb17a0798c1ba47064c2a9538b1537c5",
         "owner": "internal-data-bridge"
       }
     },
@@ -425,7 +393,7 @@
       "context": {
         "_PARENT": "SOURCE"
       },
-      "updatedAt": 1509977050473,
+      "updatedAt": 1510284860839,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/mattjared/Projects/wedding-site/src/pages/404.js",
@@ -434,7 +402,53 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5b87fa949cbbc6af92b97b4143ad1d19",
+        "contentDigest": "bc6f5f36c2a380132d67663b64fe904c",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/mattjared/Projects/wedding-site/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {
+        "_PARENT": "SOURCE"
+      },
+      "updatedAt": 1510284860840,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/mattjared/Projects/wedding-site/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7aab9ef7e7cb80252e61d9392bcf1b31",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-2/": {
+      "layout": "index",
+      "jsonName": "page-2.json",
+      "internalComponentName": "ComponentPage2",
+      "path": "/page-2/",
+      "component": "/Users/mattjared/Projects/wedding-site/src/pages/page-2.js",
+      "componentChunkName": "component---src-pages-page-2-js",
+      "context": {
+        "_PARENT": "SOURCE"
+      },
+      "updatedAt": 1510284860842,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/mattjared/Projects/wedding-site/src/pages/page-2.js",
+      "id": "SitePage /page-2/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f9dd522138dddaa7da130c790e234c50",
         "owner": "internal-data-bridge"
       }
     },
@@ -448,7 +462,7 @@
       "context": {
         "_PARENT": "SOURCE"
       },
-      "updatedAt": 1509977050478,
+      "updatedAt": 1510284860852,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "/Users/mattjared/Projects/wedding-site/src/pages/404.js",
@@ -457,7 +471,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "526efd8526898c7a39791e2a2f3776eb",
+        "contentDigest": "eae14a9f577dce57c7f1fc74e452b416",
         "owner": "internal-data-bridge"
       }
     }
@@ -468,6 +482,10 @@
   },
   "componentDataDependencies": {
     "nodes": {},
-    "connections": {}
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
   }
 }
