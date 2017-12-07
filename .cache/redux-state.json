@@ -1,25 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/mattjared/Projects/wedding-site/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {
-        "_PARENT": "SOURCE"
-      },
-      "updatedAt": 1512612256184,
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/mattjared/Projects/wedding-site/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c5957320c3ebe7e80582dae0da45424e",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -369,16 +357,14 @@
         "title": "Matt and Ash Dot Party",
         "_PARENT": "SOURCE"
       },
-      "port": "8000",
-      "host": "0.0.0.0",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-12-07T02:04:13.205Z",
+      "buildTime": "2017-12-07T02:44:21.805Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ae4178524eb4ca7d46df353a6dabf3e2",
+        "contentDigest": "9f1a689844e682bce8d442f441271cb6",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -393,7 +379,7 @@
       "context": {
         "_PARENT": "SOURCE"
       },
-      "updatedAt": 1512612256191,
+      "updatedAt": 1512614663579,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/mattjared/Projects/wedding-site/src/pages/404.js",
@@ -402,7 +388,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6ad12395d711c3a53474f25ffbf5f6bc",
+        "contentDigest": "7850b82f1033497807f865ef8770df5c",
         "owner": "internal-data-bridge"
       }
     },
@@ -416,7 +402,7 @@
       "context": {
         "_PARENT": "SOURCE"
       },
-      "updatedAt": 1512612256192,
+      "updatedAt": 1512614663580,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/mattjared/Projects/wedding-site/src/pages/index.js",
@@ -425,7 +411,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0e193c85e2a5151621b8d5c316465d9f",
+        "contentDigest": "b0a68df25406118c0a8687edbef0d1a2",
         "owner": "internal-data-bridge"
       }
     },
@@ -439,7 +425,7 @@
       "context": {
         "_PARENT": "SOURCE"
       },
-      "updatedAt": 1512612256193,
+      "updatedAt": 1512614663581,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/mattjared/Projects/wedding-site/src/pages/page-2.js",
@@ -448,7 +434,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2e75b99bdb9ff64b0cf920aca39ccb51",
+        "contentDigest": "ce09924079abfc8c9cc2a43d54c12f73",
         "owner": "internal-data-bridge"
       }
     },
@@ -462,7 +448,7 @@
       "context": {
         "_PARENT": "SOURCE"
       },
-      "updatedAt": 1512612256194,
+      "updatedAt": 1512614663583,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "/Users/mattjared/Projects/wedding-site/src/pages/404.js",
@@ -471,21 +457,17 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0ee4386113630a5b6ed91e2c4055283b",
+        "contentDigest": "e70a3d168464bfcb661d52fec83c45e0",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "6c70518e1ea5b5db3792265dad5c09ed"
+    "PLUGINS_HASH": "e3f5efe119ff9c166fef2d7eaada5c79"
   },
   "componentDataDependencies": {
     "nodes": {},
-    "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ]
-    }
+    "connections": {}
   }
 }
