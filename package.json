@@ -1,27 +1,23 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "wedding-site",
+  "description": "Matt and Ash Dot Party",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "dependencies": {
-    "gatsby": "^1.9.99",
-    "gatsby-link": "^1.6.24",
-    "gatsby-plugin-react-helmet": "^1.0.8"
-  },
-  "keywords": [
-    "gatsby"
-  ],
+  "author": "Matt Jared <mattjared9@gmail.com>",
   "license": "MIT",
   "main": "n/a",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
-    "deploy": "gatsby build && cp ./src/CNAME public/ && gh-pages -d public",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "node-sass": "^4.3.0",
+    "uglify-js": "^2.7.5"
   },
-  "devDependencies": {
-    "gh-pages": "^1.0.0",
-    "prettier": "^1.7.4"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "http-server -p 9090 -c-1",
+    "styles-max": "node-sass src/scss/style.scss build/css/style.css -w --output-style expanded",
+    "styles": "node-sass src/scss/style.scss build/css/style.min.css --output-style compressed",
+    "styles:watch": "npm run styles -- -w",
+    "jsthing": "uglifyjs src/js/script.js > build/js/script.js",
+    "start": "npm run styles-min & npm run serve & open http://localhost:9090",
+    "watch": "watch 'npm run jsthing'"
   }
 }
