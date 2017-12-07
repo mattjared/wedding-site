@@ -24,7 +24,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Matt and Ash
+              Matt and Ash
         </Link>
       </h1>
     </div>
