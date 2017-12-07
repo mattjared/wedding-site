@@ -10,7 +10,7 @@
       "context": {
         "_PARENT": "SOURCE"
       },
-      "updatedAt": 1512612256184,
+      "updatedAt": 1512613270950,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/mattjared/Projects/wedding-site/.cache/dev-404-page.js",
@@ -19,7 +19,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c5957320c3ebe7e80582dae0da45424e",
+        "contentDigest": "cf576cc4b66c09fe92d1cdc5b837ce98",
         "owner": "internal-data-bridge"
       }
     },
@@ -373,12 +373,12 @@
       "host": "0.0.0.0",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-12-07T02:04:13.205Z",
+      "buildTime": "2017-12-07T02:21:08.185Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ae4178524eb4ca7d46df353a6dabf3e2",
+        "contentDigest": "d960d6472129ded905f0a1565aa89d84",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -393,7 +393,7 @@
       "context": {
         "_PARENT": "SOURCE"
       },
-      "updatedAt": 1512612256191,
+      "updatedAt": 1512613270956,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/mattjared/Projects/wedding-site/src/pages/404.js",
@@ -402,7 +402,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6ad12395d711c3a53474f25ffbf5f6bc",
+        "contentDigest": "065ebaa2ad1ede72ba41b351d2c1d2b2",
         "owner": "internal-data-bridge"
       }
     },
@@ -416,7 +416,7 @@
       "context": {
         "_PARENT": "SOURCE"
       },
-      "updatedAt": 1512612256192,
+      "updatedAt": 1512613270956,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/mattjared/Projects/wedding-site/src/pages/index.js",
@@ -425,7 +425,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0e193c85e2a5151621b8d5c316465d9f",
+        "contentDigest": "674d439674c868254c10bc8e7061c2f0",
         "owner": "internal-data-bridge"
       }
     },
@@ -439,7 +439,7 @@
       "context": {
         "_PARENT": "SOURCE"
       },
-      "updatedAt": 1512612256193,
+      "updatedAt": 1512613270957,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/mattjared/Projects/wedding-site/src/pages/page-2.js",
@@ -448,7 +448,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2e75b99bdb9ff64b0cf920aca39ccb51",
+        "contentDigest": "92cbe4eeb6f8362631959135630d6eaf",
         "owner": "internal-data-bridge"
       }
     },
@@ -462,7 +462,7 @@
       "context": {
         "_PARENT": "SOURCE"
       },
-      "updatedAt": 1512612256194,
+      "updatedAt": 1512613270959,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "/Users/mattjared/Projects/wedding-site/src/pages/404.js",
@@ -471,14 +471,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0ee4386113630a5b6ed91e2c4055283b",
+        "contentDigest": "92bd4b8104113df1d4402eaca4ea8277",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "6c70518e1ea5b5db3792265dad5c09ed"
+    "PLUGINS_HASH": "51473cccfcbe29398a4a150897e52089"
   },
   "componentDataDependencies": {
     "nodes": {},
