@@ -1,17 +1,31 @@
 .hero {
   background-image: url('../img/overlay.png'), url('../img/pattern.svg'), linear-gradient(45deg, #65FDF0 10%, #1D6FA3 100%);
-  padding: 6rem;
+  padding: 2rem;
   background-size: auto, cover;
   background-position: top, left, center, center;
-  align-items: center;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+
+  @media (min-width: 576px) {
+    align-items: center;
+    padding: 10rem 6rem;
+    justify-content: center;
+    flex-direction: row;
+  }
 }
 .hero-text {
   background-color: rgba($white, .4);
-  padding: $spacer * 3.5;
+  padding: $spacer;
+  margin-bottom: $spacer;
   margin-right: -2rem;
   border-radius: 12px;
+  max-width: 100%;
+
+  @media (min-width: 576px) {
+    margin-bottom: 0;
+    max-width: auto;
+    padding: $spacer * 3.5;
+  }
 }
 .hero-img img {
   box-shadow: -1px 5px 20px 0px #323228;

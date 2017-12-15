@@ -167,18 +167,30 @@ progress {
 
 .hero {
   background-image: url("../img/overlay.png"), url("../img/pattern.svg"), linear-gradient(45deg, #65FDF0 10%, #1D6FA3 100%);
-  padding: 6rem;
+  padding: 2rem;
   background-size: auto, cover;
   background-position: top, left, center, center;
-  align-items: center;
   display: flex;
-  justify-content: center; }
+  flex-direction: column; }
+  @media (min-width: 576px) {
+    .hero {
+      align-items: center;
+      padding: 10rem 6rem;
+      justify-content: center;
+      flex-direction: row; } }
 
 .hero-text {
   background-color: rgba(255, 255, 255, 0.4);
-  padding: 3.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
   margin-right: -2rem;
-  border-radius: 12px; }
+  border-radius: 12px;
+  max-width: 100%; }
+  @media (min-width: 576px) {
+    .hero-text {
+      margin-bottom: 0;
+      max-width: auto;
+      padding: 3.5rem; } }
 
 .hero-img img {
   box-shadow: -1px 5px 20px 0px #323228;
