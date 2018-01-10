@@ -1,0 +1,9 @@
+@mixin vertical-rythm($size, $property) {
+  @if $property == 'padding' {
+    padding-top: map-get($vertical-rythm, $size);
+    padding-bottom: map-get($vertical-rythm, $size);
+  } @elseif $property == 'margin' {
+    margin-top: map-get($vertical-rythm, $size);
+    margin-bottom: map-get($vertical-rythm, $size);
+  }
+}

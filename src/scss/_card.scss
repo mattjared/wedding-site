@@ -1,0 +1,19 @@
+//
+// Card and its accompanying styles
+//
+
+// Card
+.card {
+  background-color: $white;
+  border-radius: $border-radius;
+  @include vertical-rythm();
+}
+
+.card-header {
+  border-bottom: 1px solid lighten($navy, 5%);
+}
+// Lodging
+.lodging {
+  color: lighten($navy, 5%);
+  @include vertical-rythm(sm);
+}

@@ -1,14 +1,16 @@
-.hero {
+body {
   background-image: url('../img/overlay.png'), url('../img/pattern.svg'), linear-gradient(45deg, #65FDF0 10%, #1D6FA3 100%);
-  padding: 2rem;
   background-size: auto, cover;
   background-position: top, left, center, center;
+}
+.hero {
   display: flex;
   flex-direction: column;
+  @include vertical-rythm(lg, padding);
 
   @media (min-width: 576px) {
     align-items: center;
-    padding: 10rem 6rem;
+    // padding: 10rem 6rem;
     justify-content: center;
     flex-direction: row;
   }
@@ -26,6 +28,9 @@
     max-width: auto;
     padding: $spacer * 3.5;
   }
+}
+.hero-text a {
+  color: $black;
 }
 .hero-img img {
   box-shadow: -1px 5px 20px 0px #323228;

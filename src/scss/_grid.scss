@@ -1,0 +1,17 @@
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: calc(100% - 7em);
+  padding-right: $spacer;
+  padding-left: $spacer;
+
+  &:before,
+  &:after {
+    content: ' '; // 1
+    display: table; // 2
+  }
+
+  &:after {
+    clear: both;
+  }
+}

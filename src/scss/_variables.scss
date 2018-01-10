@@ -1,18 +1,27 @@
 // Colors
 
+// https://coolors.co/4c6085-39a0ed-36f1cd-13c4a3-32322c
 $black:                   #32322C;
 $white:                   #ffffff;
 $navy:                    #4C6085;
 
-// https://coolors.co/4c6085-39a0ed-36f1cd-13c4a3-32322c
-
 // Fonts
 $font-family-serif:       'Noto Serif', serif;
 $font-family-sans:        'Noto Sans', sans-serif;
-$font-family-base:        $font-family-sans;
+$font-family-base:        $font-family-serif;
+
+$font-weight-normal:      400 !default;
+$font-weight-bold:        700 !default;
 
 // Padding / Margin
 $spacer:                  1rem;
+
+// Vertical Rythm
+$vertical-rythm: (
+  sm: 1.25rem,
+  md: 2.5rem,
+  lg: 5rem
+);
 
 // Borders
 $border-radius:           $spacer / 4;

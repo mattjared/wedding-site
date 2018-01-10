@@ -5,7 +5,7 @@
   box-sizing: border-box; }
 
 html {
-  font-family: sans-serif;
+  font-family: "Noto Serif", serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -20,7 +20,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Noto Sans", sans-serif; }
+  font-family: "Noto Serif", serif; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -31,7 +31,9 @@ hr {
   overflow: visible; }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0; }
+  margin-top: 0;
+  font-weight: 700;
+  font-family: "Noto Sans", sans-serif; }
 
 p {
   margin-top: 0; }
@@ -165,17 +167,31 @@ progress {
 [hidden] {
   display: none !important; }
 
-.hero {
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: calc(100% - 7em);
+  padding-right: 1rem;
+  padding-left: 1rem; }
+  .container:before, .container:after {
+    content: ' ';
+    display: table; }
+  .container:after {
+    clear: both; }
+
+body {
   background-image: url("../img/overlay.png"), url("../img/pattern.svg"), linear-gradient(45deg, #65FDF0 10%, #1D6FA3 100%);
-  padding: 2rem;
   background-size: auto, cover;
-  background-position: top, left, center, center;
+  background-position: top, left, center, center; }
+
+.hero {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
   @media (min-width: 576px) {
     .hero {
       align-items: center;
-      padding: 10rem 6rem;
       justify-content: center;
       flex-direction: row; } }
 
@@ -192,6 +208,9 @@ progress {
       max-width: auto;
       padding: 3.5rem; } }
 
+.hero-text a {
+  color: #32322C; }
+
 .hero-img img {
   box-shadow: -1px 5px 20px 0px #323228;
   border-radius: 12px;
@@ -201,3 +220,22 @@ progress {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700; }
+
+h1 {
+  font-size: 3rem; }
+
+.card-deck {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+
+.card {
+  background-color: #ffffff;
+  border-radius: 0.25rem; }
+
+.card-header {
+  border-bottom: 1px solid #556c95; }
+
+.lodging {
+  color: #556c95;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem; }

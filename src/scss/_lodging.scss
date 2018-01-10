@@ -1,0 +1,7 @@
+// Lodging
+.lodging {
+  // border: $spacer * 3 $white solid;
+  // background-color: $navy;
+  color: lighten($navy, 25%);
+  @include vertical-rythm(lg, padding);
+}
