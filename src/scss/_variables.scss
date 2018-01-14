@@ -2,16 +2,23 @@
 
 // https://coolors.co/2e86ab-f9c80e-c2d663-f86624-ae2c8b
 
-$black:                   #32322C;
-$white:                   #ffffff;
-$navy:                    #4C6085;
+$black:                   #32322C !default;
+$white:                   #ffffff !default;
+$navy:                    #4C6085 !default;
+$pink:                    #f59eb1 !default;
+$green:                   #c3d664 !default;
+$orange:                  #f79262 !default;
+$yellow:                  #f8c815 !default;
+$purple:                  #b02d8c !default;
+$blue:                    #4d6eb5 !default;
+$red:                     #cf2d4f !default;
 
 // Fonts
-$font-family-serif:       'Noto Serif', serif;
-$font-family-sans:        'Noto Sans', sans-serif;
-$font-family-base:        $font-family-serif;
+$font-family-base:        'Dosis', sans-serif;
 
+$font-weight-light:       300 !default;
 $font-weight-normal:      400 !default;
+$font-weight-book:        500 !default;
 $font-weight-bold:        700 !default;
 
 // Padding / Margin

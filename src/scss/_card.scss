@@ -6,24 +6,27 @@
 .card {
   background-color: $white;
   border-radius: $border-radius;
-  @include vertical-rythm(lg, padding);
+  @include vertical-rythm(md, margin);
 }
-
 .card-header {
-  border-bottom: 1px solid lighten($navy, 5%);
-}
-// Lodging
-.lodging {
-  color: lighten($navy, 5%);
+  align-items: center;
+  background-color: darken($white, 2.5%);
+  border-bottom: .25rem solid darken($white, 5%);
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
+  display: flex;
+  justify-content: center;
+  text-align: center;
   @include vertical-rythm(sm, padding);
 }
-
-.card .header {
-  text-align: center;
+.card-header a {
+  color: $black;
+  padding: $spacer;
+  text-decoration: none;
+  margin-right: $spacer / 2;
+  margin-left: $spacer / 2;
+  font-size: 1.5rem;
 }
-.card h2 {
-  display: inline-block;
-  font-size: 3.5rem;
-  text-align: center;
-  border-bottom: 4px solid rgba(black, .3);
+.card-body {
+  @include vertical-rythm(sm, padding);
 }
