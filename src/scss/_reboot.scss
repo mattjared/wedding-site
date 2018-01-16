@@ -40,7 +40,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 body {
   margin: 0; // 1
   font-family: $font-family-base;
-  // font-size: $font-size-base;
+  font-size: $font-size-base;
   // font-weight: $font-weight-base;
   // line-height: $line-height-base;
   // color: $body-color;
@@ -81,7 +81,7 @@ hr {
 // stylelint-disable selector-list-comma-newline-after
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  font-weight: $font-weight-light;
+  font-weight: $font-weight-bold;
   // margin-bottom: $headings-margin-bottom;
 }
 // stylelint-enable selector-list-comma-newline-after
@@ -92,6 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 // bottom margin to use `rem` units instead of `em`.
 p {
   margin-top: 0;
+  font-weight: $font-weight-light;
   // margin-bottom: $paragraph-margin-bottom;
 }
 address {
@@ -323,10 +324,4 @@ progress {
 // Needed for proper display in IE 10-.
 [hidden] {
   display: none !important;
-}
-
-body {
-  background-image: url('../img/overlay.png'), url('../img/pattern.svg'), linear-gradient(45deg, #65FDF0 10%, #1D6FA3 100%);
-  background-size: auto, cover;
-  background-position: top, left, center, center;
 }

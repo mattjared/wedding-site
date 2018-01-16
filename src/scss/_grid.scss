@@ -15,3 +15,12 @@
     clear: both;
   }
 }
+
+.grid {
+  display: flex;
+}
+.col {
+  flex: 1;
+  padding-right: $spacer;
+  padding-left: $spacer;
+}
