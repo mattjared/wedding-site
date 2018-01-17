@@ -1,22 +1,39 @@
-body {
+.hero {
   background-image: url('../img/overlay.png'), url('../img/overlay2.svg'), linear-gradient(45deg, $red 20%, $purple 80%);
   background-size: auto, cover;
   background-position: top, left, center, center;
-  height: 100vh;
-}
-.hero img {
-  max-width: 300px;
-  @include size(100%, auto);
-}
-.hero-headline {
   color: $white;
-  font-size: 2em;
-  font-weight: $font-weight-book;
+  padding-right: $spacer / 2;
+  padding-left: $spacer / 2;
   text-align: center;
-  text-shadow: 1px 1px 1px lighten($black, 5%);
   @include vertical-rythm(md, padding);
 }
-.hero-grid {
-  display: flex;
-  justify-content: center;
+.hero a {
+  color: darken($gray, 5%);
+}
+.hero-headline {
+  font-size: $spacer * 2;
+  font-weight: $font-weight-book;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 1px lighten($black, 5%);
+
+  @media (min-width: 768px) {
+    font-size: 4em;
+  }
+}
+.hero-subheadline {
+  text-shadow: 1px 1px 1px lighten($black, 5%);
+  margin-bottom: $spacer * 2;
+
+  @media (min-width: 768px) {
+    font-size: 2.5em;
+  }
+}
+.hero-text {
+  text-shadow: 1px 1px 1px lighten($black, 5%);
+  margin-bottom: 0;
+
+  @media (min-width: 768px) {
+    font-size: 2.5em;
+  }
 }

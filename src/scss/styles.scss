@@ -2,17 +2,19 @@
 // Ash and Matt Wedding Theme
 //
 
-// Globals & Resets
+// Globals & Mixins
 @import 'variables';
-@import '/../node_modules/normalize.css/normalize.css';
-@import 'reboot';
-@import 'grid';
-
-// Mixins
 @import 'mixins/size';
 @import 'mixins/vertical-rythm';
 
+// Resets
+@import '/../node_modules/normalize.css/normalize.css';
+@import 'reboot';
+
 // Components, Utils and Common
+@import 'grid';
 @import 'hero';
-@import 'card';
-@import 'masthead';
+@import 'forms';
+
+// Site styles
+@import 'site';

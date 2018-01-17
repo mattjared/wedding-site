@@ -12,6 +12,7 @@ $yellow:                  #f8c815 !default;
 $purple:                  #b02d8c !default;
 $blue:                    #4d6eb5 !default;
 $red:                     #cf2d4f !default;
+$gray:                    rgba(245, 245, 245, 1) !default;
 
 // Fonts
 $font-family-base:       'Dosis', sans-serif;
@@ -29,7 +30,8 @@ $spacer:                  1rem;
 $vertical-rythm: (
   sm: 1.25rem,
   md: 2.5rem,
-  lg: 5rem
+  lg: 5rem,
+  xl: 7.5rem
 );
 
 // Borders

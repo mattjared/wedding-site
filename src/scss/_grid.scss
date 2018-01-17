@@ -1,9 +1,12 @@
 .container {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: calc(100% - 7em);
   padding-right: $spacer;
   padding-left: $spacer;
+
+  @media (min-width: 768px) {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 768px;
+  }
 
   &:before,
   &:after {
@@ -17,10 +20,23 @@
 }
 
 .grid {
-  display: flex;
+  // display: flex;
+  // flex-direction: column;
+  @include vertical-rythm(md, padding);
+
+  @media (min-width: 768px) {
+    // flex-direction: row;
+    @include vertical-rythm(xl, padding);
+  }
 }
-.col {
-  flex: 1;
-  padding-right: $spacer;
-  padding-left: $spacer;
-}
+// .col {
+//   flex: 1;
+//   min-width: 100%;
+
+//   @media (min-width: 768px) {
+//     flex: 1;
+//     min-width: 50%;
+//     padding-right: $spacer;
+//     padding-left: $spacer;
+//   }
+// }
