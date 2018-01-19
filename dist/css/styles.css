@@ -53,6 +53,7 @@ small {
   font-size: 80%; }
 
 a {
+  color: #b02d8c;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
 
@@ -480,8 +481,8 @@ iframe {
     color: #cf2d4f;
     border-bottom-color: #cf2d4f; }
   .accomodations .card-header {
-    color: #b02d8c;
-    border-bottom-color: #b02d8c; }
+    color: #c3d664;
+    border-bottom-color: #c3d664; }
   .important-info .card-header {
     color: #4d6eb5;
     border-bottom-color: #4d6eb5; }
