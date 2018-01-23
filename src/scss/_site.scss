@@ -9,27 +9,34 @@ iframe {
 .card-header {
   display: inline-block;
   text-transform: uppercase;
-  border-bottom: 5px solid transparent;
 
   .rsvp & {
     color: $red;
-    border-bottom-color: $red;
   }
 
   .accomodations & {
     color: $green;
-    border-bottom-color: $green;
+  }
+
+  .schedule & {
+    color: $orange;
   }
 
   .important-info & {
     color: $blue;
-    border-bottom-color: $blue;
   }
 
 }
 .card-subheader {
   display: block;
-  margin-bottom: $spacer * 2;
+  margin-bottom: $spacer;
+  font-weight: $font-weight-bold;
+}
+.card-subtext {
+  font-size: 75%;
+  font-style: italic;
+  margin-bottom: 1rem;
+  display: block;
 }
 svg {
   min-width: 100%;

@@ -186,10 +186,6 @@ progress {
 .grid {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem; }
-  @media (min-width: 768px) {
-    .grid {
-      padding-top: 7.5rem;
-      padding-bottom: 7.5rem; } }
 
 .hero {
   background-image: url("../img/overlay.png"), url("../img/overlay2.svg"), linear-gradient(45deg, #cf2d4f 20%, #b02d8c 80%);
@@ -244,6 +240,7 @@ progress {
   position: relative;
   display: inline-block;
   padding-left: 2rem;
+  margin-left: 2rem;
   color: #555;
   cursor: pointer; }
 
@@ -255,7 +252,7 @@ progress {
 
 .control-indicator {
   position: absolute;
-  top: .55rem;
+  top: .25rem;
   left: 0;
   display: block;
   width: 1.5rem;
@@ -441,8 +438,11 @@ progress {
   margin-bottom: 3rem; }
 
 .form label {
-  display: block;
-  font-size: 150%; }
+  font-weight: 700;
+  margin-bottom: 1rem;
+  display: block; }
+  .form label.radio {
+    font-weight: 400; }
 
 .form input[type="text"],
 .form input[type="email"] {
@@ -475,21 +475,26 @@ iframe {
 
 .card-header {
   display: inline-block;
-  text-transform: uppercase;
-  border-bottom: 5px solid transparent; }
+  text-transform: uppercase; }
   .rsvp .card-header {
-    color: #cf2d4f;
-    border-bottom-color: #cf2d4f; }
+    color: #cf2d4f; }
   .accomodations .card-header {
-    color: #c3d664;
-    border-bottom-color: #c3d664; }
+    color: #c3d664; }
+  .schedule .card-header {
+    color: #f79262; }
   .important-info .card-header {
-    color: #4d6eb5;
-    border-bottom-color: #4d6eb5; }
+    color: #4d6eb5; }
 
 .card-subheader {
   display: block;
-  margin-bottom: 2rem; }
+  margin-bottom: 1rem;
+  font-weight: 700; }
+
+.card-subtext {
+  font-size: 75%;
+  font-style: italic;
+  margin-bottom: 1rem;
+  display: block; }
 
 svg {
   min-width: 100%;
