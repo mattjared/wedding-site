@@ -7,6 +7,10 @@
   padding-left: $spacer / 2;
   text-align: center;
   @include vertical-rythm(md, padding);
+
+  @media (min-width: 768px) {
+    @include vertical-rythm(lg, padding);
+  }
 }
 .hero a {
   color: darken($gray, 5%);
@@ -17,8 +21,16 @@
   margin-bottom: 0;
   text-shadow: 1px 1px 1px lighten($black, 5%);
 
+  span {
+    display: none;
+  }
+
   @media (min-width: 768px) {
     font-size: 4em;
+
+    span {
+      display: inline-block;
+    }
   }
 }
 .hero-subheadline {
@@ -27,13 +39,26 @@
 
   @media (min-width: 768px) {
     font-size: 2.5em;
+    display: none;
   }
 }
 .hero-text {
   text-shadow: 1px 1px 1px lighten($black, 5%);
   margin-bottom: 0;
 
+  &.desktop span {
+    display: none;
+  }
+
   @media (min-width: 768px) {
     font-size: 2.5em;
+
+    &.mobile {
+      display: none;
+    }
+
+    &.desktop span {
+      display: inline-block;
+    }
   }
 }

@@ -197,6 +197,10 @@ progress {
   text-align: center;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem; }
+  @media (min-width: 768px) {
+    .hero {
+      padding-top: 5rem;
+      padding-bottom: 5rem; } }
 
 .hero a {
   color: #e8e8e8; }
@@ -206,23 +210,34 @@ progress {
   font-weight: 500;
   margin-bottom: 0;
   text-shadow: 1px 1px 1px #404038; }
+  .hero-headline span {
+    display: none; }
   @media (min-width: 768px) {
     .hero-headline {
-      font-size: 4em; } }
+      font-size: 4em; }
+      .hero-headline span {
+        display: inline-block; } }
 
 .hero-subheadline {
   text-shadow: 1px 1px 1px #404038;
   margin-bottom: 2rem; }
   @media (min-width: 768px) {
     .hero-subheadline {
-      font-size: 2.5em; } }
+      font-size: 2.5em;
+      display: none; } }
 
 .hero-text {
   text-shadow: 1px 1px 1px #404038;
   margin-bottom: 0; }
+  .hero-text.desktop span {
+    display: none; }
   @media (min-width: 768px) {
     .hero-text {
-      font-size: 2.5em; } }
+      font-size: 2.5em; }
+      .hero-text.mobile {
+        display: none; }
+      .hero-text.desktop span {
+        display: inline-block; } }
 
 /*
  * WTF, forms?
