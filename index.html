@@ -26,7 +26,7 @@
             <h2 class="card-header">Please RSVP by March 14th, 2018.</h2>
             <span class="card-subheader">Will you be joining us? </span>
             <form action="https://api.formbucket.com/f/buk_iGG7FZAd1bNYHTfcyGmb787u" method="post" target="_blank">
-                <div class="form"">
+                <div class="form" id="attending_wedding_field">
                     <label class="control radio">
                       <input id="attending" name="attending_wedding" type="radio" value="Yes">
                       <span class="control-indicator"></span>
@@ -38,46 +38,55 @@
                       Sorry, can't make it! 🤓
                     </label>
                 </div>
-                <div class="form">
-                    <label for="names">Names of those attending: </label>
-                    <input name="names" type="text" placeholder="Ex. Brienne of Tarth, Tormund Giantsbane" />
-                </div>
-                <div class="form">
-                    <label for="dietary">Any special dietary needs? </label>
-                    <input name="dietary" type="text" placeholder="Ex. Vegetarian, Vegan" />
-                </div>
-                <div class="form" name="dance_floor">
-                    <label for="dance_floor">What song is guaranteed to get you dancing? 💃🕺</label>
-                    <input type="text" name="dance_floor" placeholder="Swing? Shout? ">
-                </div>
-                <div class="form">
-                    <label for="email">Your Email </label>
-                    <input name="email" type="email" placeholder="jonsnow@example.com" />
-                </div>
-                <div class="form" name="welcome_party">
-                    <label for="welcome_party">Will you attend the welcome party at Torchy's on April 6th?</label>
-                    <span class="card-subtext">If you're not sure, please let Matt or Ashley know by April 1st.</span>
-                    <label class="control radio">
-                      <input name="welcome_party" id="attending" type="radio" value="Yes">
-                      <span class="control-indicator"></span>
-                      I'm in! 💯
-                    </label>
-                    <label class="control radio"2>
-                      <input name="welcome_party" id="not_attending" type="radio" value="No">
-                      <span class="control-indicator"></span>
-                      Can't make it! 🙈
-                    </label>
-                    <label class="control radio">
-                      <input name="welcome_party" id="not_sure" type="radio" value="Maybe">
-                      <span class="control-indicator"></span>
-                      Not sure yet? 🙃
-                    </label>
-                </div>
                 <div class="form" style="display: none;">
                     <label>Honey pot (Should be empty and hidden)</label>
                     <input type="text" name="__bucket_trap__" value="" />
                 </div>
-                <button type="submit">Click here to submit!</button>
+                <div class="attending-form">
+                    <div class="form">
+                        <label for="names">Name(s) of those attending: </label>
+                        <input name="names" type="text" placeholder="Ex. Brienne of Tarth, Tormund Giantsbane" />
+                    </div>
+                    <div class="form">
+                        <label for="dietary">Any special dietary needs? </label>
+                        <input name="dietary" type="text" placeholder="Ex. Vegetarian, Vegan" />
+                    </div>
+                    <div class="form" name="dance_floor">
+                        <label for="dance_floor">What song is guaranteed to get you dancing? 💃🕺</label>
+                        <input type="text" name="dance_floor" placeholder="Swing? Shout? ">
+                    </div>
+                    <div class="form">
+                        <label for="email">Your Email </label>
+                        <input name="email" type="email" placeholder="jonsnow@example.com" />
+                    </div>
+                    <div class="form" name="welcome_party">
+                        <label for="welcome_party">Will you attend the welcome party at Torchy's on April 6th?</label>
+                        <span class="card-subtext">If you're not sure, please let Matt or Ashley know by April 1st.</span>
+                        <label class="control radio">
+                          <input name="welcome_party" id="attending" type="radio" value="Yes">
+                          <span class="control-indicator"></span>
+                          I'm in! 💯
+                        </label>
+                        <label class="control radio"2>
+                          <input name="welcome_party" id="not_attending" type="radio" value="No">
+                          <span class="control-indicator"></span>
+                          Can't make it! 🙈
+                        </label>
+                        <label class="control radio">
+                          <input name="welcome_party" id="not_sure" type="radio" value="Maybe">
+                          <span class="control-indicator"></span>
+                          Not sure yet? 🙃
+                        </label>
+                    </div>
+                    <button type="submit">Click here to submit!</button>
+                </div>
+                <div class="not-attending-form">
+                    <div class="form">
+                        <label for="names">Name(s): </label>
+                        <input name="names" type="text" placeholder="Ex. Jaime and Tyrion Lannister" />
+                    </div>
+                    <button type="submit">Click here to submit!</button>
+                </div>
             </form>
         </div>
         <div class="accomodations grid">

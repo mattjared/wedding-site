@@ -482,6 +482,13 @@ button {
     background-color: #4463a4;
     cursor: pointer; }
 
+.not-attending-form,
+.attending-form {
+  display: none; }
+  .not-attending-form.show,
+  .attending-form.show {
+    display: block; }
+
 iframe {
   display: none; }
   @media (min-width: 768px) {

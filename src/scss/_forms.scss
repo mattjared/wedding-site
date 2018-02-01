@@ -284,3 +284,16 @@ button {
     cursor: pointer;
   }
 }
+
+//
+// Attending Logic
+//
+
+.not-attending-form,
+.attending-form {
+  display: none;
+
+  &.show {
+    display: block;
+  }
+}
