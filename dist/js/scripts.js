@@ -4,8 +4,8 @@ var rsvpField = document.getElementsByName('attending_wedding');
 var attendingFields = document.querySelector('.attending-form');
 var notAttendingFields = document.querySelector('.not-attending-form');
 
+console.log('Stop reading my code. Email me w/ bugs, ya jabroni!');
 function showCorrectFields() {
-  console.log(event.target.value);
   if (event.target.value === 'Yes') {
     attendingFields.classList.add('show');
     if (notAttendingFields != null) {
