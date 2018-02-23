@@ -10,6 +10,7 @@ iframe {
   display: inline-block;
   text-transform: uppercase;
 
+  .what-to-do &,
   .rsvp & {
     color: $red;
   }

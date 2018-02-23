@@ -498,6 +498,7 @@ iframe {
 .card-header {
   display: inline-block;
   text-transform: uppercase; }
+  .what-to-do .card-header,
   .rsvp .card-header {
     color: #cf2d4f; }
   .accomodations .card-header {
