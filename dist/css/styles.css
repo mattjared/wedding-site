@@ -169,6 +169,9 @@ progress {
 [hidden] {
   display: none !important; }
 
+p strong {
+  font-weight: 700; }
+
 .container {
   padding-right: 1rem;
   padding-left: 1rem; }
